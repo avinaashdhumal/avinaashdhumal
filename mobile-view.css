@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  :root{
+    font-size: 15px;
+  }
   body {
     padding-top: 1rem;
   }
@@ -11,7 +14,6 @@
   .img-head-container {
     width: 90%;
     height: 3rem;
-    justify-content: space-evenly;
   }
   .img {
     width: 4rem;
@@ -31,9 +33,8 @@
   }
   #about p {
     width: 98%;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     padding: 1rem;
+    font-size: 14px;
   }
-
-
 }
