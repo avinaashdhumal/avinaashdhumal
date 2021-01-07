@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap");
+
+body {
+  margin: 0%;
+  padding-top: 3rem;
+}
+header {
+  width: 98%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.img-head-container {
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  /* transition: ease-out 3s; */
+}
+.heading-container {
+  padding-left: 1rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.heading-container h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: Overpass Mono;
+  color: #000;
+}
+.heading-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding-top: 0.1rem;
+  font-family: East Sea Dokdo, cursive;
+}
+.nav-container {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-container li {
+  list-style: none;
+}
+.nav-container li a {
+  text-decoration: none;
+  color: black;
+  font-family: Overpass Mono;
+}
+.nav-container li a:hover {
+  padding: 0.5rem 0.8rem;
+  background: rgb(133, 84, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 0.3rem;
+}
+#about {
+  margin: 0 auto;
+}
+#about p {
+  width: 40%;
+  margin: 0 auto;
+  font-family: Overpass Mono;
+  font-weight: lighter;
+  text-align: left;
+}
+h2 {
+  text-align: center;
+  margin: 5rem auto;
+  font-family: Overpass Mono;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+strong {
+  background: #000;
+  color: white;
+  padding: 1px;
+}
+li {
+  text-align: center;
+  font-family: Overpass Mono;
+  font-weight: lighter;
+}
+em {
+  color: rgb(255, 0, 55);
+  font-size: 0.9rem;
+}
+.work-container {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.work-container div:nth-child(even) {
+  width: 15rem;
+  height: 15rem;
+  background: rgb(255, 194, 194);
+  border: 1px solid black;
+}
+.work-container div:nth-child(odd) {
+  width: 15rem;
+  height: 15rem;
+  background: rgb(233, 255, 171);
+  border: 1px solid black;
+}
+.blog-container div {
+  display: block;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
+.blog-container {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* overflow: hidden; */
+}
+.nav-container-2 {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-container-2 li {
+  list-style: none;
+}
+.nav-container-2 li a {
+  color: black;
+}
+.nav-container-2 li a:hover {
+  color: rgb(81, 98, 255);
+}
+i {
+  font-size: 2rem;
+}
+#contact {
+  margin-bottom: 2rem;
+}
+#contact p {
+  text-align: center;
+  font-family: Overpass Mono;
+}
+#work p {
+  text-align: center;
+  font-family: Overpass Mono;
+}
