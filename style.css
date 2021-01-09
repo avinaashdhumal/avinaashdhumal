@@ -94,10 +94,10 @@ header {
   font-family: Overpass Mono;
 }
 .nav-container li a:hover {
-  padding: 0.5rem 0.8rem;
-  background: rgb(133, 84, 255);
+  padding: 0.3rem 0.3rem;
+  background: rgb(168, 133, 255);
   color: rgb(0, 0, 0);
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 #about {
   margin: 0 auto;

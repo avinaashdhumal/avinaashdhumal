@@ -23,4 +23,12 @@ function dark(){
         item.style.color = "white";
     })
     console.log(arr);
+    var liArr=document.querySelectorAll("li");
+    for(let i=0; i<liArr.length-4;i++){
+        liArr[i].style.backgroundColor="#edf6f9";
+        liArr[i].style.padding="0.3rem 0.3rem";
+        liArr[i].style.borderRadius="0.2rem";
+        liArr[i].style.textShadow="2px 2px 2px grey"
+        liArr[i].style.boxShadow="2px 2px 2px grey"
+    }
 }

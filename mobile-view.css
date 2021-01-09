@@ -27,9 +27,9 @@
     width: 100%;
   }
   .nav-container li a {
-    color: white;
-    padding: 0.5rem 0.8rem;
-    background: rgb(133, 84, 255);
+    /* color: white; */
+    /* padding: 0.5rem 0.8rem; */
+    /* background: rgb(133, 84, 255); */
     border-radius: 0.2rem;
     font-size: 14px;
   }
