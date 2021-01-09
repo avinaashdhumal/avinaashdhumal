@@ -41,7 +41,7 @@ header {
   font-family: Overpass Mono;
   background: rgb(63, 64, 78);
   color: rgb(255, 255, 255);
-  /* transition: all 3s; */
+  transition: all 3s ease-in-out;
   padding: 0.1rem 0.2rem;
   text-shadow: 2px 2px rgb(9, 10, 10);
 }
