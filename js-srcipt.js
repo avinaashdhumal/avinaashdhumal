@@ -1,10 +1,15 @@
 dark()
+
 function light(){
     document.body.style.transitionDuration="backgroundColor 3s linear";
     document.body.style.backgroundColor="white";
     document.getElementById("light").style.display="none";
     document.getElementById("dark").style.display="inherit";
-    // document.getElementById("welcome").style.display="none";
+    var arr=document.querySelectorAll("h2");
+    arr.forEach(item=>{
+        item.style.color = "black";
+    })
+
 }
 function dark(){
     document.body.style.transitionDuration="backgroundColor 3s linear";
