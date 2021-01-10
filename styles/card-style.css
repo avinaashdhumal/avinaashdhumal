@@ -23,8 +23,11 @@
   box-shadow: -1rem 0 3rem black;
 }
 .card-header {
-    display: block;
+  display: block;
   text-align: left;
+}
+.card-header p {
+  color: #81b29a;
 }
 .card:hover {
   transform: translateY(-1.2rem);
@@ -61,7 +64,7 @@
 }
 .post-img {
   width: 100%;
-  height: 200px;
+  height: 210px;
   border-radius: 10px;
   /* margin: 0 auto; */
 }
