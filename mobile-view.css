@@ -28,6 +28,7 @@
   }
   .nav-container {
     width: 100%;
+    margin-top: 1rem;
   }
   .nav-container li a {
     /* color: white; */
@@ -40,35 +41,12 @@
     margin: 1rem;
     font-size: 1.5rem;
   }
-  .work-container {
-    width: 100%;
-    margin: 4rem auto;
-    text-align: center;
-  }
 
-  /* work */
-
-  .work-cntr {
-    width: 100%;
-    height: 1000px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .iframe{
-    width:95%;
-    height:400px;
-    overflow: hidden;
-
-  }
-  .work-cntr div {
-    text-align: center;
-    margin: 2rem auto;
-  }
-
-
+/* Added Ml Projects css */
+/* #projects{
+  margin: auto;
+} */
+/* 
   .projects {
     width: 300px;
     height: 200px;
@@ -89,7 +67,7 @@
     border: 1px solid black;
     letter-spacing: 1px;
     font-family: Overpass Mono;
-  }
+  } */
   #about p {
     width: 98%;
     line-height: 1.5rem;
@@ -97,6 +75,30 @@
     font-size: 15px;
     letter-spacing: 1.1px;
   }
+
+  /* Work */
+    /* work */
+    .work-container {
+      margin: 0 auto;
+      text-align: center;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .work-container a {
+      text-decoration: none;
+      color: rgb(255, 254, 254);
+      background: rgb(48, 47, 47);
+      border-radius: 0.4rem;
+      padding: 0.8rem;
+      margin: 1rem;
+      box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.863);
+    }
+    .work-container a img{
+      width: 300px;
+    }
   /* Algorithms based projects */
   .algo-projects {
     margin: 0 auto;
@@ -116,10 +118,36 @@
     margin: 0.3rem;
     box-shadow: 2px 2px 8px rgba(113, 255, 168, 0.863);
   }
+  .algo-projects a img{
+    width: 250px;
+  }
   .algo-projects a:hover {
     width: 20rem;
     transform: rotate(5deg);
     box-shadow: 3px 2px 10px rgba(247, 250, 60, 0.863);
+  }
+
+  /* ml project css */
+  .ml-projects{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ml-projects a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    background: #000;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    box-shadow: 2px 2px 8px rgba(113, 255, 168, 0.863);
+  }
+  .ml-projects a img{
+    width: 250px;
   }
 }
 
