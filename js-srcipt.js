@@ -22,7 +22,7 @@ function dark(){
     arr.forEach(item=>{
         item.style.color = "white";
     })
-    console.log(arr);
+    // console.log(arr);
     var liArr=document.querySelectorAll("li");
     for(let i=0; i<liArr.length-4;i++){
         liArr[i].style.backgroundColor="#edf6f9";

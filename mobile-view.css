@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
   :root{
     font-size: 15px;
   }
@@ -6,13 +6,16 @@
     padding-top: 1rem;
     overflow-x: hidden;
   }
+  .top {
+    display: none;
+  }
   #welcome{
     text-align: center;
   }
   header {
     flex-direction: column;
     width: 98%;
-    justify-content: center
+    justify-content: center;
     align-items: center;
   }
   .img-head-container {
@@ -35,6 +38,7 @@
   }
   h2 {
     margin: 1rem;
+    font-size: 1.5rem;
   }
   .work-container {
     width: 100%;
@@ -93,5 +97,29 @@
     font-size: 15px;
     letter-spacing: 1.1px;
   }
-  
+  /* Algorithms based projects */
+  .algo-projects {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .algo-projects a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    background: #000;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    box-shadow: 2px 2px 8px rgba(113, 255, 168, 0.863);
+  }
+  .algo-projects a:hover {
+    width: 20rem;
+    transform: rotate(5deg);
+    box-shadow: 3px 2px 10px rgba(247, 250, 60, 0.863);
+  }
 }
+
