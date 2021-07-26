@@ -42,32 +42,7 @@
     font-size: 1.5rem;
   }
 
-/* Added Ml Projects css */
-/* #projects{
-  margin: auto;
-} */
-/* 
-  .projects {
-    width: 300px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .projects img {
-    border: 1px solid black;
-  }
-  .projects a {
-    text-decoration: none;
-    color: #000;
-    padding: 0.4rem;
-    background: rgb(90, 163, 247);
-    border: 1px solid black;
-    letter-spacing: 1px;
-    font-family: Overpass Mono;
-  } */
+
   #about p {
     width: 98%;
     line-height: 1.5rem;
@@ -90,14 +65,14 @@
     .work-container a {
       text-decoration: none;
       color: rgb(255, 254, 254);
-      background: rgb(48, 47, 47);
+      background: rgb(41, 38, 38);
       border-radius: 0.4rem;
       padding: 0.8rem;
       margin: 1rem;
       box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.863);
     }
     .work-container a img{
-      width: 300px;
+      width: 200px;
     }
   /* Algorithms based projects */
   .algo-projects {
